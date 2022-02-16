@@ -1,0 +1,10 @@
+To compile:
+
+wasm-pack build --target web --release
+
+Start server in the root dir:
+
+python3 -m http.server
+
+Open browser to http://127.0.0.1:8000/
+Check the console for stats.
